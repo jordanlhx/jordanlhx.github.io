@@ -11,8 +11,13 @@ body {
 .container {
     max-width: 800px;
     width: 600px;
-    margin: auto;
-    background-color: #191716;
+    margin: 10px auto;
+    background-color: #2e2b29;
+    border-radius: 16px;
+}
+
+h1 {
+    margin: 0;
 }
 
 hr {
@@ -23,6 +28,8 @@ hr {
 .contactme-title, .aboutme-title, .currentprojects-title {
     margin: 20px;
     text-align: left;
+    margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .profilephoto {
@@ -31,7 +38,6 @@ hr {
 }
 
 .title {
-
     padding: 20px;
     text-align: center;
 }
@@ -42,21 +48,24 @@ hr {
 
 .aboutme-content {
     text-align: center;
+    color: white;
 }
 
-.contactme-content {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+.contactme {
+    margin-bottom: 10px;
+}
+
+.contactme-title {
+    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
 .socials {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    gap: 50px;
-    font-size: 25px;
+    padding: 0px;
+    column-gap: 70px;
+    font-size: 20px;
 }
 
 a {
@@ -82,4 +91,9 @@ a:visited {
 
 .week1:hover {
     background-color: rgb(75, 75, 75)
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 19px;
 }
