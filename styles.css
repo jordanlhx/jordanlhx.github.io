@@ -81,6 +81,10 @@ a:visited {
     color: #e6af2e;
 }
 
+a:link {
+    color: #e6af2e;
+}
+
 .week1 {
     padding: 10px;
     margin: 0 0 20px 20px;
